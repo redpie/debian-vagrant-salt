@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --buildsystem=ruby --with ruby
+
+override_dh_auto_build:
+	rm lib/vagrant_init.rb
+	dh_auto_build

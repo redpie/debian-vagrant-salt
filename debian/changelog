@@ -1,0 +1,5 @@
+vagrant-salt (0.2-0mit1) precise; urgency=low
+
+  * Initial packaging
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Tue, 17 Jul 2012 22:19:11 +0100

@@ -1,0 +1,21 @@
+Source: vagrant-salt
+Section: admin
+Priority: optional
+Maintainer: Kiall Mac Innes <kiall@managedit.ie>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.13~)
+Standards-Version: 3.9.3
+#Vcs-Git: 
+#Vcs-Browser: 
+Homepage: https://github.com/akoumjian/salty-vagrant
+XS-Ruby-Versions: all
+
+Package: vagrant-salt
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: vagrant (>= 1.0.0),
+         ruby | ruby-interpreter,
+         ruby-archive-tar-minitar,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Vagrant Salt Stack Provisioner
+ Salt Stack Provisioner plugin for Vagrant

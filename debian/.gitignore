@@ -1,0 +1,4 @@
+files
+vagrant-salt
+vagrant-salt.substvars
+vagrant-salt.debhelper.log
